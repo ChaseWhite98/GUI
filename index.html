@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <!--
+    Name:     Chase White (01735254)
+    Email:    chgase_white@student.uml.edu
+    File:     index.html
+    Created:  05/21/22
+    Desc:
+    -->
+    <title>Assignment 1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="script.js"></script>
+  </head>
+  
+  <body>
+    <!-- the header contains everything on the top of the page in dark cyan,
+    including the title and table of information / links-->
+    <header>
+      <h1>First Website</h1>
+      <hr>
+      <table class="headerTable">
+          <thead>
+            <tr>
+              <th>Name <img src="images/smiley.png" alt="smiley face" width="50"></th>
+              <th>Email <img src="images/outlook_logo.png" alt="outlook logo" width="50"></th>
+              <th>Github <img src="images/github_logo.png" alt="github logo" width="50"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <td>Chase White</td>
+            <td>Chase_White@Student.uml.edu</td>
+            <td><a href="https://github.com/ChaseWhite98/GUI-I" target="_blank">ChaseWhite98</a></td>
+          </tbody>
+      </table>
+    </header>
+    
+    <!-- the container div is used for CSS formatting; everything within
+    the main body of the webpage is put here (everything below the header) -->
+    <div class="container">
+      <!-- Introduction / About me box -->
+      <div class="box">
+        
+        <h2>An Introduction</h2>
+        
+        <p class="p1">I am currently a senior in the computer science major here at UML. After taking GUI, I will have finished my requirements for graduation, which is quite exciting. <br>I am completely new to the world of web development and have never coded in HTML, CSS, or javascript. So, I'm hoping that this class will provide me an opportunity to branch out from the more algorithmic side of coding and explore a more aesthetic and creative side of programming.</p>
+        <h4>Some of my hobbies outside of school</h4>
+        
+        <!-- using unordered list to bullet hobbies -->
+        <ul id="hobbyList">
+          <li>Cooking</li>
+          <li>Repairing and modifying cars</li>
+          <li>Sound design and music production</li>
+          <li>Snowboarding</li>
+        </ul>
+      </div>
+      
+      <!-- breakers mansion pictures box -->
+      <div class="box">
+        
+        <h2>Recent Visit to Breakers Mansion, Newport RI</h2>
+
+        <blockquote id="breakersQuote" cite="https://www.newportmansions.org/explore/the-breakers">
+          "The Breakers has entertained presidents, royalty and guests from across the world for more than 125 years and today is visited by hundreds of thousands of people each year. It is the flagship of the Newport Mansions and a world-famous iconic image of the City-by-the-Sea."
+        </blockquote>
+
+        <table class="breakersTable">
+          <thead>
+            <tr>
+              <th>
+                <a href="images/breakers_1.jpg" target="_blank">
+                  <img src="images/breakers_1.jpg" alt="breakers parlor" width="200" height="150">
+                </a>
+              </th>
+              <th>
+                <a href="images/breakers_2.jpg" target="_blank">
+                  <img src="images/breakers_2.jpg" alt="breakers foyer" width="200">
+                </a>
+              </th>
+              <th>
+                <a href="images/breakers_3.jpg" target="_blank">
+                  <img src="images/breakers_3.jpg" alt="breakers bedroom" width="200">
+                </a>
+              </th>
+              <th>
+                <a href="images/breakers_4.jpg" target="_blank">
+                  <img src="images/breakers_4.jpg" alt="breakers balcony" width="200">
+                </a>
+              </th>
+              <th>
+                <a href="images/breakers_5.jpg" target="_blank">
+                  <img src="images/breakers_5.jpg" alt="breakers exterior" width="200">
+                </a>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Main parlor / Sitting room</td>
+              <td>View of the great hall from the second story</td>
+              <td>Bedroom adorned with floral fabric wallpaper</td>
+              <td>View of the ocean from the rear of the estate</td>
+              <td>Exterior view of the mansion from the backyard</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <a id="readMore" href="https://www.newportmansions.org/explore/the-breakers" target="_blank"> Read More About The Breakers</a>
+      </div>
+
+      <div class="newsBlock">
+        <h2>How to build a better battery</h2>
+        <h5>Rebecca Heilweil</h5>
+        <hr>
+        <blockquote cite="https://www.vox.com/recode/23027110/solid-state-lithium-battery-tesla-gm-ford">
+          "If this EV revolution is going to succeed, batteries need to get better. They need to go even farther on a single charge, and they need to weigh less. EV batteries also need to be less prone to bursting into flames, an issue that’s rare but very concerning."
+        </blockquote>
+        <a href="https://www.vox.com/recode/23027110/solid-state-lithium-battery-tesla-gm-ford" target="_blank">View This Story</a>
+        <img src="images/vox.png" height="80">
+
+      </div>
+
+      <div class="newsBlock">
+        <h2>Majority of U.S. Power Grid at Risk of Failure This Summer</h2>
+        <h5>Audrey Carleton</h5>
+        <hr>
+        <blockquote cite="https://www.vice.com/en/article/dypnja/majority-of-us-power-grid-at-risk-of-failure-this-summer-report-warns">
+          "In the event of wide-area extreme heat event, all U.S. assessment areas in the Western Interconnection are at risk of energy emergencies, the report says definitively, leading to “forced outages."
+        </blockquote>
+        <a href="https://www.vice.com/en/article/dypnja/majority-of-us-power-grid-at-risk-of-failure-this-summer-report-warns" target="_blank">View This Story</a>
+        <img src="images/vice.png" height="80">
+      </div>
+      <div class="newsBlock">
+        <h2>Much of the U.S. could criminalize abortion</h2>
+        <h5>Emily Feng</h5>
+        <hr>
+        <blockquote cite="https://www.npr.org/2022/05/20/1099914068/abortion-roe-v-wade-supreme-court-laws-states">
+          "In many states, restrictive abortion laws already exist. Texas, for example, passed SB-8 last year. That law effectively bans abortions after six weeks of pregnancy, which is before most people know they're pregnant."
+        </blockquote>
+        <a href="https://www.npr.org/2022/05/20/1099914068/abortion-roe-v-wade-supreme-court-laws-states" target="_blank">View This Story</a>
+        <img src="images/npr.png" width="200" height="80">
+      </div>
+
+      <div class="clr"></div>
+    </div>
+
+    <footer>
+        <p>Copytright &copy; 2022, Chase White</p>
+    </footer>
+  </body>
+</html>
